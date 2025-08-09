@@ -2,6 +2,8 @@
 
 A simple implementation of the classic Minesweeper game using the Textual TUI framework for Python.
 
+<img width="727" height="453" alt="image" src="https://github.com/user-attachments/assets/709d34b2-c119-40b1-ab3d-e5c3e3ec9a61" />
+
 ## Installation
 
 To run this game, you need to have Python installed. The dependencies are managed using `uv`.
