@@ -2,6 +2,22 @@
 
 A simple implementation of the classic Minesweeper game using the Textual TUI framework for Python.
 
+## Installation
+
+To run this game, you need to have Python installed. The dependencies are managed using `uv`.
+
+1.  **Install `uv` (if you don't have it):**
+
+    ```bash
+    pip install uv
+    ```
+
+2.  **Install project dependencies:**
+
+    ```bash
+    uv pip install -r requirements.txt
+    ```
+
 ## How to Play
 
 1.  **Run the game:**
@@ -9,7 +25,7 @@ A simple implementation of the classic Minesweeper game using the Textual TUI fr
     python main.py
     ```
 2.  **Game Controls:**
-    - **Navigate:** Use the arrow keys to move the cursor between cells.
+    - **Navigate:** Use the mouse to select a cell.
     - **Reveal a cell:** Press the `space` bar to reveal a cell. If the cell contains a mine, the game is over. If the cell is empty, it will show the number of adjacent mines.
     - **Flag a cell:** Press the `f` key to place a flag on a cell you suspect contains a mine. Press `f` again to remove the flag.
     - **New Game:** Press the `n` key to start a new game at any time.
