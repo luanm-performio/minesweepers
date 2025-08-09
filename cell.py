@@ -19,5 +19,4 @@ class Cell:
         return f"Cell(mine={self.is_mine}, revealed={self.is_revealed}, flagged={self.is_flagged}, adjacent={self.adjacent_mines})"
 
     def __str__(self):
-        # self.post_message(CellClicked(self.x, self.y, event.button))
         return f"Cell(mine={self.is_mine}, revealed={self.is_revealed}, flagged={self.is_flagged}, adjacent={self.adjacent_mines})"
