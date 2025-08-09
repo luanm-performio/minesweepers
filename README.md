@@ -15,7 +15,7 @@ To run this game, you need to have Python installed. The dependencies are manage
 2.  **Install project dependencies:**
 
     ```bash
-    uv pip install -r requirements.txt
+    uv pip install .
     ```
 
 ## How to Play
